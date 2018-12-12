@@ -1,0 +1,140 @@
+
+
+body{
+	background-color: #03828c;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+ul{
+	list-style: none;
+}
+
+
+h1, p{
+	text-align: center;
+}
+
+p{
+  color: #ec766d;
+}
+
+
+#form-outer{
+	background-color: #f2efe6;
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+
+form{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+h1{
+  color: #f2efe6;
+	margin: 0;
+	font-weight: 600;
+	 margin-bottom: 5px;
+}
+
+#description{
+	padding: 25px 0;
+}
+
+.labels{
+	align-self: flex-start;
+	font-size: 16px;
+	color: #e85a4f;
+	text-align: right;
+	padding-right: 20px;
+	width: 50%;
+}
+
+.rowTab{
+	display: flex;
+	width:100%;
+}
+
+.userRatings{
+	flex-wrap: wrap;
+}
+
+.rightTab{
+	display:flex;
+	
+	margin-bottom: 20px;
+	width:50%;
+	color: #e85a4f;
+}
+
+.rowTab:nth-of-type(5){
+	margin-bottom: -10px;
+}
+
+#preferences {
+	margin-top:-5px;
+}
+
+.radio{
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.radio:nth-of-type(3){
+	margin-bottom: 10px;
+}
+
+.userRatings{
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	align-items: flex-end;	
+}
+
+
+input{
+	width: 250px;
+	height: 25px;
+	border-radius: 3px;
+}
+
+
+select{
+	height: 30px;
+	width: 125px;
+	margin-bottom: 10px;
+}
+
+
+textarea{
+	height:50px;
+	resize: vertical;
+	width: 300px;
+	overflow: scroll;
+}
+
+
+
+button{
+	align-self: stretch;
+	flex-basis: 1 300px;
+	font-size: 16px;
+	background-color: #e98074;
+	color: white;
+	height: 50px;
+	width: 100px;
+	border-radius: 5px;
+}
+
+button:hover{
+	font-size: 20px;
+	background-color: #03636b;
+    transition-duration: 1s;
+	
+}
