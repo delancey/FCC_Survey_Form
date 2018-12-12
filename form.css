@@ -1,7 +1,7 @@
 
 
 body{
-	background-color: #03828c;
+	background-color: #588b9c;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -50,7 +50,7 @@ h1{
 .labels{
 	align-self: flex-start;
 	font-size: 16px;
-	color: #e85a4f;
+	color: #4c7886;
 	text-align: right;
 	padding-right: 20px;
 	width: 50%;
@@ -67,10 +67,9 @@ h1{
 
 .rightTab{
 	display:flex;
-	
 	margin-bottom: 20px;
 	width:50%;
-	color: #e85a4f;
+	color: #5884c7886b9c;
 }
 
 .rowTab:nth-of-type(5){
@@ -134,7 +133,7 @@ button{
 
 button:hover{
 	font-size: 20px;
-	background-color: #03636b;
+	background-color: #4c7886;
     transition-duration: 1s;
 	
 }
